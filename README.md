@@ -4,7 +4,7 @@ Capture a trace in Android Studio: https://goo.gle/compose-tracing
 
 # Manual capture
 
-Capturing a trace without Android Studio
+Capturing a trace without Android Studio. Note: the same constraints (e.g. API >= 30) apply as in the DAC instructions.
 
 ## Example app
 
