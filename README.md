@@ -28,8 +28,8 @@ implementation("androidx.tracing:tracing-perfetto-binary:1.0.0-alpha06")
 1. Generate a record command using: https://ui.perfetto.dev/#!/record/instructions
 2. Manually add the `track_event` data source section as per example below.
 
-```
 Example recording command:
+```
 adb shell perfetto \
   -c - --txt \
   -o /data/misc/perfetto-traces/trace \
@@ -61,7 +61,7 @@ EOF
 
 1. Launch the app and prepare section you want to trace
 
-2. Enable tracing in the app by issuing a broadcast (expect `exitCode:1`, more exit codes in [source](https://cs.android.com/android/platform/frameworks/support/+/androidx-main:tracing/tracing-perfetto-common/src/main/java/androidx/tracing/perfetto/PerfettoHandshake.kt;l=216;drc=125437f5e8b829997e6e4244274c5dc52194e33f))
+2. Enable tracing in the app by issuing a broadcast (expect `exitCode: 1`, more exit codes in [source](https://cs.android.com/android/platform/frameworks/support/+/androidx-main:tracing/tracing-perfetto-common/src/main/java/androidx/tracing/perfetto/PerfettoHandshake.kt;l=216;drc=125437f5e8b829997e6e4244274c5dc52194e33f))
 
 ```
 # set app package variable, e.g. com.google.samples.apps.nowinandroid.debug
