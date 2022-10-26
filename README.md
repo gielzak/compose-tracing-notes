@@ -59,7 +59,7 @@ incremental_state_config {
 EOF
 ```
 
-# Capture a trace
+## Capture a trace
 
 1. Launch the app and prepare section you want to trace
 
