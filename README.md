@@ -4,7 +4,7 @@ Capture a trace in Android Studio: https://goo.gle/compose-tracing
 
 # Trace capture from CLI
 
-Note: Android Studio takes care of most of these steps for you, so if possible, use Android Studio as per official DAC documentation.
+Note: Android Studio takes care of most of these steps for you (and has other nice features, e.g. code navigation on double-click), so if possible, use Android Studio as per official DAC documentation.
 
 Note: the same constraints (e.g. API >= 30) apply here, as described on DAC.
 
