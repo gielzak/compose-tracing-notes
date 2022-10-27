@@ -1,12 +1,12 @@
-# DAC instructions
+# Official DAC documentation
 
 Capture a trace in Android Studio: https://goo.gle/compose-tracing
 
-# Manual capture
+# Trace capture from CLI
 
-Capturing a trace without Android Studio.
+Note: Android Studio takes care of most of these steps for you, so if possible, use Android Studio as per official DAC documentation.
 
-Note: the same constraints (e.g. API >= 30) apply as in the DAC instructions.
+Note: the same constraints (e.g. API >= 30) apply here, as described on DAC.
 
 ## Example app
 
@@ -20,7 +20,7 @@ git clone https://github.com/android/nowinandroid.git
 ```
 implementation("androidx.compose.runtime:runtime-tracing:1.0.0-alpha01")
 implementation("androidx.tracing:tracing-perfetto:1.0.0-alpha06")
-implementation("androidx.tracing:tracing-perfetto-binary:1.0.0-alpha06")
+implementation("androidx.tracing:tracing-perfetto-binary:1.0.0-alpha06") // tracing binaries that Studio would sideload
 ```
 
 3. Verify through `./gradlew app:dependencies`
